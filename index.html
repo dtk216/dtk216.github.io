@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>My Homepage</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <!-- My JS-->
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <!-- Boostrap from https://getbootstrap.com/docs/5.3/layout/grid/#example -->
+        <!-- Cards: https://getbootstrap.com/docs/5.3/components/card/#about -->
+        <div class="container text-center">
+            <!--Source: https://getbootstrap.com/docs/5.3/helpers/position/#responsive-sticky-top-->
+            <div id="nav-bar" class="row sticky-top">
+                <div id="logo" class="col">
+                    <a href="index.html"><img src="media/churchLogo.png" alt="church logo"></a>
+                </div>
+                <!--Source: https://getbootstrap.com/docs/5.3/components/dropdowns/#overview -->
+                <div class="col dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="page1.html">담임목사</a></li>
+                        <li><a class="dropdown-item" href="page2.html">청년부</a></li>
+                        <li><a class="dropdown-item" href="page3.html">오시는 길</a></li>
+                        <li><a class="dropdown-item" href="page4.html">교회의 역사</a></li>
+                    </ul>
+                </div>
+                <div id="nav-links" class="col">
+                    <ul id="links">
+                        <li>
+                            <a href="page1.html">담임목사</a>
+                        </li>
+                        <li>
+                            <a href="page2.html">청년부</a>
+                        </li>
+                        <li>
+                            <a href="page3.html">오시는 길</a>
+                        </li>
+                        <li>
+                            <a href="page4.html">교회의 역사</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="heading-section" class="row">
+                <div id="heading" class="col">
+                    <h1>
+                        <b>레바논 한인 장로교회</b>
+                    </h1>
+                    <div id="block"></div>
+                    <h2>
+                        Lebanon Korean Presbyterian Church
+                    </h2>
+                </div>
+            </div>
+            <div class="main-body row">
+                <div class="col horizontal-row">
+                    <img src="media/church.png" class="horizontal-img" alt="img placeholder">
+                    <div class="text">
+                        <h3>
+                            <b>"듣는자는 살아나리라"</b>
+                        </h3>
+                        <p>
+                            듣고 변화되어 세상을 살리는 교회
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="main-body row row-cols-4">
+                <div class="col cards">
+                    <a href="page1.html">
+                        <div class="card hover-click">
+                            <img src="media/church.png" class="card-img" alt="img placeholder">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">
+                                    <b>담임목사</b>
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col cards">
+                    <a href="page2.html">
+                        <div class="card hover-click">
+                            <img src="media/church.png" class="card-img" alt="img placeholder">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">
+                                    <b>청년부</b>
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col cards">
+                    <a href="page3.html">
+                        <div class="card hover-click">
+                            <img src="media/church.png" class="card-img" alt="img placeholder">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">
+                                    <b>오시는 길</b>
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col cards">
+                    <a href="page4.html">
+                        <div class="card hover-click">
+                            <img src="media/church.png" class="card-img" alt="img placeholder">
+                            <div class="card-img-overlay">
+                                <h5 class="card-title">
+                                    <b>교회의 역사</b>
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="main-body row">
+            <div class="col horizontal-row">
+                <img src="media/church.png" class="horizontal-img" alt="img placeholder">
+                <div class="text">
+                    <h3>
+                        <b>섬기는이들</b>
+                    </h3>
+                    <p>
+                        "나를 능하게 하신 그리스도 예수 우리 주께 내가 감사함은 나를 충성되이 여겨 내게 직분을 맡기심이니" (딤전 1:12)
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="main-body row">
+            <div class="col horizontal-row">
+                <div class="text">
+                    <h3>
+                        <b>"듣는자는 살아나리라"</b>
+                    </h3>
+                    <p>
+                        듣고 변화되어 세상을 살리는 교회
+                    </p>
+                </div>
+                <img src="media/church.png" class="horizontal-img" alt="img placeholder">
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    </body>
+</html>
